@@ -6,6 +6,8 @@ github.com/Azure/azure-sdk-for-go v3.1.0-beta.0.20160802173609-87de771fcdf5+inco
 github.com/Azure/azure-sdk-for-go v3.1.0-beta.0.20160802173609-87de771fcdf5+incompatible/go.mod h1:9XXNKU+eRnpl9moKnB4QOLf1HestfXbmab5FXxiDBjc=
 github.com/ahmetalpbalkan/go-httpbin v0.0.0-20160706084156-8817b883dae1 h1:/sPElPBMLSi6+bV0o0fPN4U24qQCNHs1i/BjnO+GqLc=
 github.com/ahmetalpbalkan/go-httpbin v0.0.0-20160706084156-8817b883dae1/go.mod h1:Rg55S63lgqSBCawY/oTm7jdFSySp6jwIqgHMB2IeHK8=
+github.com/ahmetb/govvv v0.3.0 h1:YGLGwEyiUwHFy5eh/RUhdupbuaCGBYn5T5GWXp+WJB0=
+github.com/ahmetb/govvv v0.3.0/go.mod h1:4WRFpdWtc/YtKgPFwa1dr5+9hiRY5uKAL08bOlxOR6s=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

@@ -16,6 +16,7 @@ require (
 )
 
 require (
+	github.com/ahmetb/govvv v0.3.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/go-logfmt/logfmt v0.6.0 // indirect
 	github.com/go-stack/stack v1.8.1 // indirect
