@@ -5,16 +5,18 @@ BUNDLEDIR=bundle
 BUNDLE=custom-script-extension.zip
 APP_DIR=/var/lib/waagent/Microsoft.Azure.Extensions.CustomScript-2.1.10
 
-# waagent starts
-# waagent gets a goalstate, which contains CSE must run w/ a certain payload
+# Simplified Flow notes:
 
+# waagent starts
+# waagent gets a goalstate, which contains instructions that CSE must run w/ a certain payload
 # waagent pulls this container with the cse binaries
 # waagent places the config files and status files into APP_DIR so that CSE can consume 
 # waagent calls the entrypoint for the container, which is `APP_DIR/bin/custom-script-shim enable`
-# CSE takes over, consumes context from APP_DIR/HandlerEnvironment.json and the other metadata files/directories (i.e. APP_DIR/config)
 
-# Unknowns (later):
-# how to report back healthy state from the container to the guest agent on the host
+# CSE takes over, consumes context from APP_DIR/HandlerEnvironment.json and the other metadata files/directories (i.e. APP_DIR/config)
+# CSE updates APP_DIR/status w/ result of execution
+
+# waagent reports status back to fabric
 
 bundle: clean binary
 	@mkdir -p $(BUNDLEDIR)
