@@ -9,5 +9,5 @@ WORKDIR /
 RUN rm -rf /usr/local/build
 
 # Default command to keep the container running
-# ENTRYPOINT ["/bin/bash", "-c", "tail -f /dev/null"]
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/bin/bash", "-c", "tail -f /dev/null"]
+# ENTRYPOINT ["/bin/bash"]
