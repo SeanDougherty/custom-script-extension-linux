@@ -5,7 +5,7 @@ BUNDLEDIR=bundle
 BUNDLE=custom-script-extension.zip
 PUBLISHER=Microsoft.Azure.Extensions
 EXT_NAME=CustomScript
-VERSION=2.1.10
+VERSION=2.1.13
 APP_DIR=/var/lib/waagent/$(PUBLISHER).$(EXT_NAME)-$(VERSION)
 #APP_DIR=/var/lib/waagent/Microsoft.Azure.Extensions.CustomScript-2.1.10
 
